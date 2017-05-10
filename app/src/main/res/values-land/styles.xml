@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Main Activity-->
+
+    <style name="app_name" parent="AppTheme">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:text">@string/welcome</item>
+        <item name="android:textColor">@color/welcome</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="myMusic" parent="AppTheme">
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:text">@string/myMusic</item>
+        <item name="android:textColor">@color/welcome</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="recentlyListened" parent="AppTheme">
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:text">@string/recentlyListened</item>
+        <item name="android:textColor">@color/welcome</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="byArtist" parent="AppTheme">
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:text">@string/byArtist</item>
+        <item name="android:textColor">@color/welcome</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="myPlaylist" parent="AppTheme">
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:text">@string/myPlaylist</item>
+        <item name="android:textColor">@color/welcome</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Activity MyMusic-->
+
+    <style name="recentlySelectedMusic" parent="AppTheme">
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:text">@string/recentlySelectedMyMusic</item>
+        <item name="android:textColor">@color/welcome</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="backMain" parent="AppTheme">
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:text">@string/backMain</item>
+        <item name="android:textColor">@color/welcome</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="firstSong" parent="AppTheme">
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawableLeft">@drawable/song_small</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:drawableRight">@drawable/song_navi</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+
+    <!--Activity byArtist-->
+
+    <style name="recentlySelectedArtist" parent="AppTheme">
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:text">@string/recentlySelectedMyArtist</item>
+        <item name="android:textColor">@color/welcome</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Activity Recently_Listened / Favorite-->
+
+    <style name="favorite" parent="AppTheme">
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:text">@string/favorite</item>
+        <item name="android:textColor">@color/welcome</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Activity My_Playlist-->
+
+    <style name="recentlySelectedPlaylist" parent="AppTheme">
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:text">@string/MyPlaylist</item>
+        <item name="android:textColor">@color/welcome</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="playlist" parent="AppTheme">
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:textColor">@color/welcome</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/playlistName</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:drawableRight">@drawable/song_navi</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+
+</resources>

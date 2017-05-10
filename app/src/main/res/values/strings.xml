@@ -1,0 +1,27 @@
+<resources>
+
+    <!--Activity Names-->
+    <string name="app_name">Music Structure App</string>
+    <string name="my_music">My Music</string>
+    <string name="rec_lis">Favorite</string>
+    <string name="by_artist">Artists</string>
+    <string name="my_playlist">Playlist</string>
+
+    <!--App strings-->
+    <string name="welcome">Music Play\n Application</string>
+    <string name="myMusic">My Music</string>
+    <string name="recentlyListened">Favorite</string>
+    <string name="byArtist">Artists</string>
+    <string name="myPlaylist">Playlist</string>
+    <string name="backMain">Back to\n Main Menu</string>
+    <string name="recentlySelectedMyMusic">Selected:\nMyMusic</string>
+    <string name="MyMusicDescription">This activity:\nDisplay list of songs available on device;\nPossibility add/remove song to/from favorites/playlist;\nPlay the listed songs (connected to device music library).;/nList will be scrollable.\nI wish to use here Youtube API to search for and play song of choice.</string>
+    <string name="recentlySelectedMyArtist">Selected:\nArtists</string>
+    <string name="ArtistDescription">This activity:\nDisplay single cd cover/artist;\nPossibility to play all artist songs, (sorted on list below.);\nThe app will use device library only;</string>
+    <string name="favorite">Selected:\nFavorite</string>
+    <string name="FavoriteDescription">List of favorite songs in A-Z</string>
+    <string name="MyPlaylist">Selected:\nPlaylist</string>
+    <string name="PlaylistDescription">This activity:\nDisplay list of available playlist;\nNext to each playlist is play_menu and button to show all songs included in playlist (list will show up below playlist name);\nPossibility to remove selected song from playlist;</string>
+    <string name="playlistName">[user name playlist]</string>
+
+</resources>
